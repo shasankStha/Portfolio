@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Version Control</title>
+    <link rel="stylesheet" href="css/itcss.css">
 </head>
 <body>
-    <h1 style="text-align:center;color:burlywood"><u>Git and Github</u></h1>
+    <h2><u>Git and Github</u></h2>
     
-    <h2>Commands in GIT</h2>
-    1) git init (Inside of the project folder)
-    <br>2) git add (filename) or git add .(To add file)
-    <br>3) git commit -m "Comments"(Create commit point) 
-    <br>4) git config --list
-    <br>5) git config --global user.name""
-    <br>6) git config --global user.email""
-    <br>7) git checkout -b (branch_name) (Create new branch)
-    <br>8) git checkout (branch_name) (Move across branch)
-    <br>9) git branch (branch list)
-    <br>10) git merge master (Merge changes in the master to branch)
-    <br>11) git merge (branch_name) (Merge the changes in the branch to master)
+    <h3>Commands in GIT</h3>
+    <ol>
+        <li>git init (Inside of the project folder)</li>
+        <li>git add (filename) or git add .(To add file)</li>
+        <li>git commit -m "Comments"(Create commit point)</li>
+        <li>git config --list</li>
+        <li>git config --list</li>
+        <li>git config --list</li>
+        <li>git config --global user.name""</li>
+        <li>git config --global user.email""</li>
+        <li>git checkout -b (branch_name) (Create new branch)</li>
+        <li>git checkout (branch_name) (Move across branch)</li>
+        <li>git branch (branch list)</li>
+        <li>git merge master (Merge changes in the master to branch)</li>
+        <li>git merge (branch_name) (Merge the changes in the branch to master)</li>
+    </ol>
     
     <h3>Into Github</h3>
-    12) git remote add origin <"link">
-    <br>13) git push -u origin master (To push)
-    <br>14) git pull -u origin master (To pull)
+        <ol>
+        <li>git remote add origin <"link"></li>
+        <li>git push -u origin master (To push)</li>
+        <li>git pull -u origin master (To pull)</li>
+        </ol>
 
     <h3>Generating SSH key</h3>
     In Gitbash terminal,
-    <br>1) $pwd (to know location)
-    <br>2) $ssh-keygen (to generate key)
-    <br>Now, open the SSH file from the saved location and copy the key and add it on github.
+    <ol>
+        <li>$pwd (to know location)</li>
+        <li>$ssh-keygen (to generate key)</li>
+    </ol>
+    Now, open the SSH file from the saved location and copy the key and add it on github.
+    
 
     <br><br>
     <p>
@@ -41,36 +51,39 @@
     </p>
     
     <h2>Git vs SVN</h2>
-    <table>
-        <tr>
-            <th><b style="text-align:center">GIT</b></th>
-            <th><b style="text-align:center">SVN</b></th>
-        </tr>
-        <tr>
-            <td>1) Git has Distributed Model.</td>
-            <td>1) SVN has Centralized Model.</td>
-        </tr>
-        <tr>
-            <td>2) In git, every user has their own copy of code on their.</td>
-            <td>2) In SVN, there is central repository has working copy that makes changes and committed in central repository.</td>
-        </tr>
-        <tr>
-            <td>3) In git, we do not required any network to perform git operation.</td>
-            <td>3) In SVN, we required Network for runs the SVN operation.</td>
-        </tr>
-        <tr>
-            <td>4) It is difficult to learn. It has more concepts and commands.</td>
-            <td>4) SVN is easier to learn compose to git.</td>
-        </tr>
-        <tr>
-            <td>5) In git, we create only git directory.</td>
-            <td>5) In SVN, we create SVN directory in each folder.</td>
-        </tr>
-        <tr>
-            <td>6) It doesn't have good UI.</td>
-            <td>6) It has simple and better UI.</td>
-        </tr>
-
+    <table class="center">
+        <thead>
+            <tr>
+                    <th><b><u>GIT</u></b></th>
+                    <th><b><u>SVN</u></b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1) Git has Distributed Model.</td>
+                <td>1) SVN has Centralized Model.</td>
+            </tr>
+            <tr>
+                <td>2) In git, every user has their own copy of code on their.</td>
+                <td>2) In SVN, there is central repository has working copy that makes changes and committed in central repository.</td>
+            </tr>
+            <tr>
+                <td>3) In git, we do not required any network to perform git operation.</td>
+                <td>3) In SVN, we required Network for runs the SVN operation.</td>
+            </tr>
+            <tr>
+                <td>4) It is difficult to learn. It has more concepts and commands.</td>
+                <td>4) SVN is easier to learn compose to git.</td>
+            </tr>
+            <tr>
+                <td>5) In git, we create only git directory.</td>
+                <td>5) In SVN, we create SVN directory in each folder.</td>
+            </tr>
+            <tr>
+                <td>6) It doesn't have good UI.</td>
+                <td>6) It has simple and better UI.</td>
+            </tr>
+        </tbody>
     </table>
 
 </body>

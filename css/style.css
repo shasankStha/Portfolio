@@ -1,0 +1,12 @@
+h1{
+    color:yellowgreen;
+    text-align:center;
+}
+body{
+    margin:auto;
+    /* width:1024px; */
+    padding:10px;
+    background-color:#ebebeb;
+    font-size:14px;
+    font-family:Verdana;
+}

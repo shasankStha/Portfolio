@@ -1,0 +1,32 @@
+h2{
+    color:burlywood;
+    text-align:center;
+}
+sup{
+    font-size:10px;
+}
+small{
+    background-color:rgb(231, 227, 227);
+    font-size: 15px;
+}
+sup{
+    background-color:rgb(231, 227, 227);
+}
+span{
+    background-color:rgb(231, 227, 227)
+}
+b{
+    text-align:center;
+}
+.center {
+    margin-left: auto; 
+    margin-right: auto;
+    
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+td{
+    width:50%;
+}
