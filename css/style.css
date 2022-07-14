@@ -10,3 +10,12 @@ body{
     font-size:14px;
     font-family:Verdana;
 }
+a:link{
+    color: black;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:blue;
+}

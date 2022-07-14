@@ -9,11 +9,8 @@ small{
     background-color:rgb(231, 227, 227);
     font-size: 15px;
 }
-sup{
+sup, span{
     background-color:rgb(231, 227, 227);
-}
-span{
-    background-color:rgb(231, 227, 227)
 }
 b{
     text-align:center;
@@ -29,4 +26,7 @@ table, th, td {
 }
 td{
     width:50%;
+}
+span{
+    text-align: right;
 }
