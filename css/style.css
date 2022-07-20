@@ -1,21 +1,48 @@
 h1{
-    color:yellowgreen;
+    color:wheat;
     text-align:center;
 }
 body{
     margin:auto;
     /* width:1024px; */
     padding:10px;
-    background-color:#ebebeb;
+    background-color:#a3a2a2;
     font-size:14px;
-    font-family:Verdana;
+    font-family:Arial, Helvetica, sans-serif;
 }
-a:link{
-    color: black;
-}
-a:visited{
-    color: red;
+a:link, a:visited{
+    color: white;
 }
 a:hover{
-    color:blue;
+    color: red;
+}
+table, tr, td, th{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table{
+    text-align: center;
+    background-color: blueviolet;
+    color: whitesmoke;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.p{
+    border: 2px solid black;
+    font-size: 80px;
+    color: blueviolet;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
 }

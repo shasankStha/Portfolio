@@ -1,65 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>Homepage</title>
-   <meta charset="utf-8" />
-   <meta name="author" content="insert your name here" />
-   <meta name="description" content="lab exercises and website" />
-   <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <main>
-      <section id="bio">
+    <header>
+        <section class="p">
+            <marquee direction="right" scrollamount="14">
+               <u>Welcome!!! Welcome!!! Welcome!!!</u>
+            </marquee>
+         </section>
          <h1>
-            <u>Internet Technologies</u>
-         </h1>
-         <h2>
-            Shasank Shrestha
-         </h2>
-         <p>
-            <strong>ID: <em>8443</em></strong> 
-            <!--<strong>Group: <em>insert your group</em></strong>
-            --></p>
-      </section>
-      <section id="exercises">
-         <h2>Internet Technology</h2>
-         <ol>
-            <li>
-               <a href="internet_concept.html">
-                  Internet Concepts</a>
-            </li>
-            <li>
-               <a href="how_internet_works.html">
-                  How internet works?</a>
-            </li>
-            <li>
-               <a href="version_control.html">
-                  Version Control</a>
-            </li>
-            <li>
-               <a href="wireframes_mockups.html">
-                  Wireframes and Mockups</a>
-            </li>
-         </ol>
-         <h2>Website</h2>
-         <ol>
-            <li>
-               <a href="website/page-1.html">Page 1</a>
-            </li>
-            <li>
-               <a href="website/page-2.html">Page 2</a>
-            </li>
-            <li>
-               <a href="website/page-3.html">Page 3</a>
-            </li>
-            <li>
-               <a href="website/page-4.html">Page 4</a>
-            </li>
-            <li>
-               <a href="website/page-5.html">Page 5</a>
-            </li>               
-         </ol>
-      </section>
-   </main>
+            <u>Internet Technologies~Portfolio</u>
+        </h1>
+         <table class="table">
+            <tr>
+                <td><a href="#A1">Information</a></td>
+                <td><a href="#A2">Contents</a></td>
+                <td><a href="notes.html">Notes</a></td>
+                <td><a href="#A3">Contact</a></td>
+            </tr>
+        </table><br><br>
+        <hr><br><br>
+    </header>
+    
+    <main>
+        <h1 id="A1"><u>Information</u></h1>
+        <section id="bio">
+            <p style="font-size: 20px;">
+               <strong>Name: <u>Shasank Shrestha</u><br><br>
+               <strong>ID: <em>8443</em><br><br>
+               <strong>Resume:<br>
+                <img src="images/resume.jpg">
+               </strong>
+            </p>
+         </section><hr><br><br>
+         <h1 id="A2"><u>Contents</u></h1>
+        <table>
+            <tr>
+                <th>Week</th>
+                <th>Lecture</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><ul>
+                    <li><a href="how_internet_works.html">Internet concepts</a></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><ul>
+                    <li><a href="internet_concept.html">Webserver</a></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <ul>
+                    <li><a href="version_control.html">Git</a></li>
+                    <li><a href="version_control.html">Github</a></li>
+                    <li><a href="version_control.html">Apache Sub version</a></li>
+                    </ul>
+            </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><ul>
+                    <li><a href="wireframes_mockups.html">Wireframes</a></li>
+                    <li><a href="wireframes_mockups.html">Mock-up</a></li>
+                    <li><a href="wireframes_mockups.html">Prototype</a></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><ul>
+                    <li>Webpage Designing</li>
+                    <li>HTML</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><ul>
+                    <li>Hyperlink</li>
+                    <li>Image</li>
+                    <li>Table</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><ul>
+                    <li>Form</li>
+                </ul></td>
+            </tr>
+        </table>
+    </main>
+    <hr>
+    <footer>
+        <h1 id="A3"><u>Contact</u></h1>
+        <table class="foot">
+            <tr>
+                <th>Mobile number</th>
+                <th>Email</th>
+                <th>Facebook</th>
+                <th>Instagram</th>
+            </tr>
+            <tr>
+                <td>+977 974-6312195</td>
+                <td>sasan.stha@gmail.com</td>
+                <td><a href="https://www.facebook.com/shanks.stha23" target="_blank">shanks.stha23</a></td>
+                <td><a href="https://www.instagram.com/shanks_stha/" target="_blank">shanks_stha</a></td>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>
