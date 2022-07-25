@@ -12,3 +12,9 @@ tr, td{
 table{
     width: 100%;
 }
+a:link, a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
